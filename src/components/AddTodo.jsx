@@ -15,7 +15,7 @@ const AddTodo = ({ addTasks, addEnterTasks }) => {
                     null
                 }
             </div>
-            <button className='w-1/5 bg-purple-400 rounded-md text-white' onClick={() => (addTasks(title), setTitle(''))}>add</button>
+            <button className='w-1/4 bg-purple-400 rounded-md text-white' onClick={() => (addTasks(title), setTitle(''))}>add</button>
         </div>
     );
 };
