@@ -106,8 +106,8 @@ function App() {
   // }
 
   return (
-    <div className="mobile:w-11/12 m-auto">
-      <h1 className="mobile:text-5xl font-extrabold text-purple-400 text-center mobile:mt-7 my-7">
+    <div className="desktop:max-w-[990px] tablet:w-10/12 mobile:w-11/12 m-auto">
+      <h1 className="tablet:text-6xl mobile:text-5xl font-extrabold text-purple-400 text-center tablet:my-12 mobile:my-7">
         TODO APP
       </h1>
 
